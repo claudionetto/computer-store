@@ -13,7 +13,11 @@ export interface IProdutoCarrinho extends IProduto{
 
 export const produtos : IProduto[] = [
     { id: 1, descricao: "Mouse gamer", preco: 439.00, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/mouse-3.jpg" },
+<<<<<<< HEAD
     { id: 2, descricao: "Monitor muito bom", preco: 1200.50, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/monitor-1.jpg" },
+=======
+    { id: 2, descricao: "Monitor muito bom", preco: 1200.50, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/monitor-1.jpg" },
+>>>>>>> 5e9f48bca61d190a62ec6129b49d10c3d90c0a15
     { id: 3, descricao: "Teclado excelente", preco: 749.99, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/teclado-1.jpg" },
     { id: 4, descricao: "Fone para quem joga FPS", preco: 599.99, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/fone-de-ouvido-2.jpg" },
     { id: 5, descricao: "Fone de ouvido", preco: 299.99, descricaoPreco: "À vista no PIX", quantidadeEstoque: 10, imagem: "./assets/fone-de-ouvido-1.jpg" },
